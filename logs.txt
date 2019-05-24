@@ -1,0 +1,31 @@
+[14:29:59 Information] IdentityServer4.Hosting.IdentityServerMiddleware Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+
+[14:29:59 Debug] IdentityServer4.Endpoints.AuthorizeCallbackEndpoint Start authorize callback request
+
+[14:29:59 Debug] IdentityServer4.Endpoints.AuthorizeCallbackEndpoint No user present in authorize request
+
+[14:29:59 Debug] IdentityServer4.Validation.AuthorizeRequestValidator Start authorize request protocol validation
+
+[14:29:59 Debug] IdentityServer4.Stores.ValidatingClientStore client configuration validation for client mvc succeeded.
+
+[14:29:59 Debug] IdentityServer4.Validation.AuthorizeRequestValidator Checking for PKCE parameters
+
+[14:29:59 Debug] IdentityServer4.Validation.AuthorizeRequestValidator No PKCE used.
+
+[14:29:59 Debug] IdentityServer4.Validation.AuthorizeRequestValidator Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+
+[14:29:59 Information] IdentityServer4.Endpoints.AuthorizeCallbackEndpoint ValidatedAuthorizeRequest {"ClientId": "mvc", "ClientName": "MVC Client", "RedirectUri": "http://localhost:5002/signin-oidc", "AllowedRedirectUris": ["http://localhost:5002/signin-oidc"], "SubjectId": "anonymous", "ResponseType": "code id_token", "ResponseMode": "form_post", "GrantType": "hybrid", "RequestedScopes": "openid profile api1", "State": "CfDJ8II-qsirBDZBoO3je8L7rBTETMepa_2sml4RVz5SvSy6IaDJ8zCUFiHZDbbub7cu-wG_jqT8HNc8v94_ITLA23f3DXjjTPydP-Z8W-BquRCyEITJP-EfMAoBY-QvzTSPAb1pqVBrigisCFS5nPP2mrpmGhkziBgwyhLmenp2AQt3eVB_rpaVLEnQCccQ7Hqkd5nO6urcX2ETDOYSX6GmywSqw4qYiF_MHwn-JYcc8PnJ53EAfZ05UNLK-ILEfUCEtKsvDRh-E9toJRyvuZ9b48RFliEFZlZVsWwMeyHX7J11Pw4k1aGtqH663Sp5AgrF4w", "UiLocales": null, "Nonce": "636942851828024718.MWE0YTE1NDEtODc5NC00YmU2LWI4NTctMWU0ZmU4NGE1MTlhOGQ5MmMyYjgtM2M0YS00NzUxLTk2MjYtZjY4ZmJlNDAyZmMy", "AuthenticationContextReferenceClasses": null, "DisplayMode": null, "PromptMode": null, "MaxAge": null, "LoginHint": null, "SessionId": null, "Raw": {"client_id": "mvc", "redirect_uri": "http://localhost:5002/signin-oidc", "response_type": "code id_token", "scope": "openid profile api1", "response_mode": "form_post", "nonce": "636942851828024718.MWE0YTE1NDEtODc5NC00YmU2LWI4NTctMWU0ZmU4NGE1MTlhOGQ5MmMyYjgtM2M0YS00NzUxLTk2MjYtZjY4ZmJlNDAyZmMy", "state": "CfDJ8II-qsirBDZBoO3je8L7rBTETMepa_2sml4RVz5SvSy6IaDJ8zCUFiHZDbbub7cu-wG_jqT8HNc8v94_ITLA23f3DXjjTPydP-Z8W-BquRCyEITJP-EfMAoBY-QvzTSPAb1pqVBrigisCFS5nPP2mrpmGhkziBgwyhLmenp2AQt3eVB_rpaVLEnQCccQ7Hqkd5nO6urcX2ETDOYSX6GmywSqw4qYiF_MHwn-JYcc8PnJ53EAfZ05UNLK-ILEfUCEtKsvDRh-E9toJRyvuZ9b48RFliEFZlZVsWwMeyHX7J11Pw4k1aGtqH663Sp5AgrF4w", "x-client-SKU": "ID_NETSTANDARD2_0", "x-client-ver": "5.3.0.0"}, "$type": "AuthorizeRequestValidationLog"}
+
+[14:29:59 Information] IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator Showing login: User is not authenticated
+
+[14:29:59 Debug] IdentityServer4.Validation.AuthorizeRequestValidator Start authorize request protocol validation
+
+[14:29:59 Debug] IdentityServer4.Stores.ValidatingClientStore client configuration validation for client mvc succeeded.
+
+[14:29:59 Debug] IdentityServer4.Validation.AuthorizeRequestValidator Checking for PKCE parameters
+
+[14:29:59 Debug] IdentityServer4.Validation.AuthorizeRequestValidator No PKCE used.
+
+[14:29:59 Debug] IdentityServer4.Validation.AuthorizeRequestValidator Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+
+[14:29:59 Debug] IdentityServer4.Stores.ValidatingClientStore client configuration validation for client mvc succeeded.
